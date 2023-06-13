@@ -1,6 +1,8 @@
 pub mod big_number;
 pub mod camel_case;
+pub mod chaser_schedule;
 pub mod count_characters;
+pub mod decode_morse_code;
 pub mod find_missing_term;
 pub mod hamming_distance;
 pub mod multiplication_table;
