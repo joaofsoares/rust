@@ -14,8 +14,7 @@ pub fn josephus<T: Clone + Copy>(xs: Vec<T>, k: usize) -> Vec<T> {
             cnt = cnt - size;
         }
 
-        let target = alive.iter().nth(cnt).unwrap();
-        deads.push(*target);
+        deads.push(alive[cnt]);
 
         alive.remove(cnt);
         size = alive.len();
