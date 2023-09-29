@@ -5,6 +5,7 @@ mod dynamic_programming;
 mod generic;
 mod guessing_game;
 mod leetcode;
+mod mandelbrot;
 mod pointers;
 mod rectangles;
 
@@ -37,5 +38,10 @@ mod tests {
 
         assert_eq!(&47, generic::largest::largest(&nums));
         assert_eq!(&'z', generic::largest::largest(&chars));
+    }
+
+    #[test]
+    fn test_mandelbrot() {
+        mandelbrot::mandelbrot::exec_mandelbrot("mandel.png", "4000x3000", "-1.20,0.35", "-1,0.20")
     }
 }
