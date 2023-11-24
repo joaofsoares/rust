@@ -1,4 +1,4 @@
-struct Solution;
+use crate::leetcode::solution::Solution;
 
 impl Solution {
     pub fn single_number(nums: Vec<i32>) -> i32 {
@@ -11,11 +11,13 @@ impl Solution {
 }
 
 #[cfg(test)]
-mod tests {
+mod single_number_tests {
     use crate::leetcode::single_number::Solution;
 
     #[test]
     fn test_single_number_1() {
+        let s = Solution {};
+
         let nums = vec![2, 2, 1];
 
         let res = Solution::single_number(nums);
