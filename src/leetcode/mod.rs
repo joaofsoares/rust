@@ -4,6 +4,7 @@ pub mod gas_station;
 pub mod generate_parenthesis;
 pub mod h_index;
 pub mod jump_game;
+pub mod longest_valid_parentheses;
 pub mod majority_element;
 pub mod multiply_strings;
 pub mod pow;
