@@ -1,4 +1,5 @@
 pub mod best_time_to_buy_sell_stock;
+pub mod first_missing_positive;
 pub mod gas_station;
 pub mod generate_parenthesis;
 pub mod h_index;
