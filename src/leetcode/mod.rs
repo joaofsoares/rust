@@ -14,5 +14,6 @@ pub mod reverse_words_in_a_string;
 pub mod rotate_array;
 pub mod single_number;
 pub mod solution;
+pub mod string_to_integer;
 pub mod sudoku_solver;
 pub mod valid_sudoku;
