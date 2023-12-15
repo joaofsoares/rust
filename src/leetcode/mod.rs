@@ -13,6 +13,7 @@ pub mod product_array_except_self;
 pub mod remove_element;
 pub mod reverse_words_in_a_string;
 pub mod rotate_array;
+pub mod search_rotated_sorted_array;
 pub mod single_number;
 pub mod solution;
 pub mod string_to_integer;
