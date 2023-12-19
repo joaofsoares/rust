@@ -1,4 +1,5 @@
 mod actix;
+mod algorithms;
 mod async_messages;
 mod codewars;
 mod dynamic_programming;
