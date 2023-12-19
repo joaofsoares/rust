@@ -43,17 +43,11 @@ pub fn add_binaries(a: u32, b: u32) -> Vec<u32> {
     let bin_a = format!("{:b}", a);
     let bin_b = format!("{:b}", b);
 
-    println!("binary a: {:?}", bin_a);
-    println!("binary b: {:?}", bin_b);
-
     let mut carry = 0;
     let mut a_size: i32 = bin_a.len() as i32 - 1;
     let mut b_size: i32 = bin_b.len() as i32 - 1;
 
     while a_size > -1 && b_size > -1 {
-        println!("a size: {}", a_size);
-        println!("b size: {}", b_size);
-
         let a_num = bin_a.chars().nth(a_size as usize).unwrap() as u32 - '0' as u32;
         let b_num = bin_b.chars().nth(b_size as usize).unwrap() as u32 - '0' as u32;
 
