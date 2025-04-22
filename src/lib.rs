@@ -3,6 +3,7 @@ mod algorithms;
 mod async_messages;
 mod codewars;
 mod dynamic_programming;
+mod exercism;
 mod generic;
 mod guessing_game;
 mod leetcode;
