@@ -16,8 +16,6 @@ mod single_number_tests {
 
     #[test]
     fn test_single_number_1() {
-        let s = Solution {};
-
         let nums = vec![2, 2, 1];
 
         let res = Solution::single_number(nums);
