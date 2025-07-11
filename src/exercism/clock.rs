@@ -11,18 +11,18 @@ impl Clock {
             mins += (1 - mins / (24 * 60)) * 24 * 60;
         }
 
-        return Clock {
+        Clock {
             hours: (mins / 60) % 24,
             minutes: mins % 60,
-        };
+        }
     }
 
     pub fn add_minutes(&self, minutes: i32) -> Self {
-        return Clock::new(self.hours, self.minutes + minutes);
+        Clock::new(self.hours, self.minutes + minutes)
     }
 
     pub fn to_string(&self) -> String {
-        return String::from(format!("{:02}:{:02}", self.hours, self.minutes));
+        String::from(format!("{:02}:{:02}", self.hours, self.minutes))
     }
 }
 
